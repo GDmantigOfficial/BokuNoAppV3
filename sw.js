@@ -2,7 +2,6 @@ self.addEventListener('install', e=>{
     const recursos = caches.open("Boveda01").then(cache=>{
         cache.add('/'),
         cache.add('index.html'),
-        cache.add('Error.html'),
         cache.add('Personajes.html'),
         cache.add('Personaje.html'),
         cache.add('manifest.json'),
@@ -13,8 +12,7 @@ self.addEventListener('install', e=>{
         cache.add('js/js/bootstrap.js'),
         cache.add('js/Scripts.js'),
         cache.add('js/Scripts2.js'),
-        cache.add('js/Scripts3Get.js'),
-        cache.add('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css'),
+        cache.add('js/Script3Get.js'),
         cache.add('js/js/js/pouchdb-nightly.js'),
         cache.add('js/js/js/base.js'),
         cache.add('js/js/js/app.js');
@@ -59,7 +57,7 @@ self.addEventListener('install', e=>{
         cache.add('Resources/EraserHead/Estudiante.png'),
         cache.add('Resources/Izuku/Alpha.png'),
         cache.add('Resources/Izuku/Beta.png'),
-        cache.add('Resources/Izuku/casual.png'),
+        cache.add('Resources/Izuku/Casual.png'),
         cache.add('Resources/Izuku/Elipson.png'),
         cache.add('Resources/Izuku/Gamma.png'),
         cache.add('Resources/Izuku/USJ.png'),
