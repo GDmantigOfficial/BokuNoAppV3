@@ -79,7 +79,12 @@ self.addEventListener('install', e=>{
         cache.add('Resources/Toga/Villana.png'),
         cache.add('Resources/Uravity/Casual.png'),
         cache.add('Resources/Uravity/Combate.png'),
-        cache.add('Resources/Uravity/ZeroGravity.png');
+        cache.add('Resources/Uravity/ZeroGravity.png'),
+        cache.add('Resources/AllMight/Combate.png'),
+        cache.add('Resources/AllMight/Estudiante.png'),
+        cache.add('Resources/AllMight/FinalForm.png'),
+        cache.add('Resources/AllMight/Heroe.png'),
+        cache.add('Resources/AllMight/TrueForm.png');
     });
     e.waitUntil(recursos2);
 })
